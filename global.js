@@ -1,6 +1,6 @@
 
 
-var allowedDomains = ['https://bstlar.com/eL/another-ui', 'bstlar.com', 'linkvertise.com'];
+var allowedDomains = ['https://bstlar.com/eL/another-ui', 'bstlar.com', 'linkvertise.com', 'https://doadfies.vercel.app/', '#'];
 var currentDomain = window.location.hostname;
 
 if (allowedDomains.includes(currentDomain)) {
