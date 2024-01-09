@@ -48,7 +48,7 @@
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Daftar file
-      const gameFiles = ['Another UI More Pack.mcpack', 'Another UI v2.mcpack'];
+      const gameFiles = ['None', 'action_page.php'];
 
       const dropdown = document.getElementById('gameDropdown');
       gameFiles.forEach(function (file) {
@@ -63,7 +63,7 @@
         
         if (isConfirmed) {
           const downloadLink = document.createElement('a');
-          downloadLink.href = 'download/' + selectedFile;
+          downloadLink.href = 'w3schools.com/' + selectedFile;
           downloadLink.download = selectedFile;
           downloadLink.click();
         }
