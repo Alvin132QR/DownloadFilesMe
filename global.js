@@ -1,6 +1,6 @@
 
 
-var allowedDomains = ['https://bstlar.com/eL/another-ui', 'bstlar.com', 'linkvertise.com', 'https://doadfies.vercel.app/', '#'];
+var allowedDomains = ['direct-link.net/1062040/download-addon-minecraft', 'linkvertise.com', 'direct-link.net'];
 var currentDomain = window.location.hostname;
 
 if (allowedDomains.includes(currentDomain)) {
