@@ -1,7 +1,7 @@
 
 
 var allowedDomains = ['doadfies.vercel.app/download/main.html', 'linkgenie.me/s/KOryH', 'sub2unlock.com', 'linkgenie.me', 'direct-link.net/1062040/download-addon-minecraft', 'linkvertise.com', 'direct-link.net'];
-var notallowedDomains = ['alvin132qr.github.io', 'doadfies.vercel.app'];
+var notallowedDomains = ['alvin132qr.github.io', 'github.com'];
 var currentDomain = window.location.hostname;
 
 if (allowedDomains.includes(currentDomain)) {
