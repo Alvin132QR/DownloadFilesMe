@@ -7,7 +7,7 @@ if (allowedDomains.includes(currentDomain)) {
   document.getElementById("downloadContent").style.display = "flex";
 } else {
   document.getElementById("downloadContent").style.display = "none";
-  var paragraph = document.createElement("pr");
+  var pr = document.createElement("pr");
   pr.textContent ="Use Linkvertise Or Directlink For Download";
   var bodyElement = document.body;
   bodyElement.appendChild(pr);
