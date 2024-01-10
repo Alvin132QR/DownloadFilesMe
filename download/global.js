@@ -1,7 +1,7 @@
 
 
-var allowedDomains = ['linkgenie.me/s/KOryH', 'sub2unlock.com', 'linkgenie.me', 'direct-link.net/1062040/download-addon-minecraft', 'linkvertise.com', 'direct-link.net'];
-var notallowedDomains = ['doadfies.vercel.app', 'doadfies.vercel.app/download/main.html'];
+var allowedDomains = ['doadfies.vercel.app/download/main.html', 'linkgenie.me/s/KOryH', 'sub2unlock.com', 'linkgenie.me', 'direct-link.net/1062040/download-addon-minecraft', 'linkvertise.com', 'direct-link.net'];
+var notallowedDomains = ['doadfies.vercel.app'];
 var currentDomain = window.location.hostname;
 
 if (allowedDomains.includes(currentDomain)) {
