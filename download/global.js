@@ -1,6 +1,6 @@
 
 
-var allowedDomains = ['direct-link.net/1062040/download-addon-minecraft', 'linkvertise.com', 'direct-link.net'];
+var allowedDomains = ['https://linkgenie.me/s/KOryH', 'https://sub2unlock.com/', 'https://linkgenie.me/', 'direct-link.net/1062040/download-addon-minecraft', 'linkvertise.com', 'direct-link.net'];
 var currentDomain = window.location.hostname;
 
 if (allowedDomains.includes(currentDomain)) {
