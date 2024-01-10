@@ -7,6 +7,6 @@ if (allowedDomains.includes(currentDomain)) {
   document.getElementById("downloadContent").style.display = "flex";
   document.getElementById("mainContent").style.display = "none";
 } else if ('https://doadfies.vercel.app/'.includes(currentDomain)){
-  document.getElementById("downloadContent").style.display = "none";
-  document.getElementById("mainContent").style.display = "flex";
+  document.getElementById("downloadContent").style.display = "flex";
+  document.getElementById("mainContent").style.display = "none";
 }
