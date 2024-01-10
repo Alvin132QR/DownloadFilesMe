@@ -6,7 +6,7 @@ var currentDomain = window.location.hostname;
 
 if (allowedDomains.includes(currentDomain)) {
   document.getElementById("downloadContent").style.display = "flex";
-} else if (notallowedDomains.includes(currentDomain){
+} else if (notallowedDomains.includes(currentDomain)){
   document.getElementById("downloadContent").style.display = "none";
   var pr = document.createElement("pr");
   pr.textContent ="Use Linkvertise Or Directlink For Download";
