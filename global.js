@@ -1,6 +1,6 @@
 
 
-var allowedDomains = ['direct-link.net/1062040/download-addon-minecraft', 'linkvertise.com', 'direct-link.net'];
+var allowedDomains = ['https://doadfies.vercel.app/', 'direct-link.net/1062040/download-addon-minecraft', 'linkvertise.com', 'direct-link.net'];
 var currentDomain = window.location.hostname;
 
 if (allowedDomains.includes(currentDomain)) {
