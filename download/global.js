@@ -4,10 +4,10 @@ var allowedDomains = ['doadfies.vercel.app/download/main.html', 'linkgenie.me/s/
 var notallowedDomains = ['alvin132qr.github.io', 'github.com'];
 var currentDomain = window.location.hostname;
 
-if (allowedDomains.includes(currentDomain)) {
+if (currentDomain.includes(allowedDomains)) {
   document.getElementById("downloadContent").style.display = "flex";
 } 
-if (notallowedDomains.includes(currentDomain)) {
+if (currentDomain.includes(notallowedDomains)) {
   document.getElementById("downloadContent").style.display = "none";
   var pr = document.createElement("pr");
   pr.textContent ="Use Linkvertise Or Directlink For Download";
