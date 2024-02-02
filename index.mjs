@@ -3,7 +3,7 @@ import implicitRenderHtml from './implicit.html';
 
 // This is the demo secret key. In prod, we recommend you store
 // your secret key(s) safely.
-const SECRET_KEY = '1x0000000000000000000000000000000AA';
+const SECRET_KEY = '0x4AAAAAAAPx-hgFykNBl_Up8zSrFu6mcqg';
 
 async function handlePost(request) {
     const body = await request.formData();
@@ -40,7 +40,7 @@ export default {
 
         const url = new URL(request.url);
         let body = implicitRenderHtml;
-        if (url.pathname === '/explicit') {
+        if (url.pathname === '/explicit.html') {
             body = explicitRenderHtml;
         }
         
